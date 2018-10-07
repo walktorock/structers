@@ -5,12 +5,15 @@ import random
 # массив надо заполнить значениями 0, 3, 4, 5 (индексация начинается с нуля),
 # т.к. именно в этих позициях первого массива стоят четные числа.
 
-array = [random.randint(1, 100) for _ in range(10)]
-print(array)
-index_array = []
-
-for index, value in enumerate(array):
-    if value % 2 == 0:
-        index_array.append(index)
-
-print(f'Четные числа под индексами: {index_array}')
+# array = [random.randint(1, 100) for _ in range(10)]
+# print(array)
+# index_array = []
+#
+# for index, value in enumerate(array):
+#     if value % 2 == 0:
+#         index_array.append(index)
+#
+# print(f'Четные числа под индексами: {index_array}')
+SIZE = 10
+a = [random.randint(1, SIZE // 1.5) for _ in range(SIZE)]
+print(SIZE // 1.5)
