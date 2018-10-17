@@ -35,5 +35,6 @@ def merge(left, right):
         result += right
     return result
 
-merge_sort(fl_list)
-print(fl_list)
+
+new_fl_list = merge_sort(fl_list)
+print(new_fl_list)
